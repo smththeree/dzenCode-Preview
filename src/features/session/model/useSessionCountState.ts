@@ -5,7 +5,7 @@ export const useSessionCountState = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    const socket = io("http://localhost:4444", {
+    const socket = io("https://smththeree.github.io", {
       withCredentials: true,
     });
     const handleActiveSessions = (value: number): void => {
