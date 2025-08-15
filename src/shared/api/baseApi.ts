@@ -8,7 +8,7 @@ import {
 } from "@reduxjs/toolkit/query/react";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "http://localhost:4444",
+  baseUrl: "https://dzencode-server.onrender.com",
   credentials: "include",
   prepareHeaders: (headers, { getState }) => {
     const state = getState() as { auth: { token?: string } };

@@ -11,7 +11,7 @@ i18n
     fallbackLng: "en",
     debug: true,
     interpolation: { escapeValue: false },
-    backend: { loadPath: "/locales/{{lng}}/{{ns}}.json" },
+    backend: { loadPath: "/dzenCode-Preview/locales/{{lng}}/{{ns}}.json" },
     react: { useSuspense: true },
   });
 export default i18n;
